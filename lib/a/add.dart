@@ -40,7 +40,7 @@ class _AddState extends State<Add> {
   var selectCheck = int.parse('1');
   final _demageList = [
      //1
-    'demage no', //2
+    'demage no',
     'demage yes',
   ];
   var _selectedDemage = 'demage no';
@@ -53,11 +53,11 @@ class _AddState extends State<Add> {
   final GlobalKey<FormState> _demagefk = GlobalKey<FormState>();
   final GlobalKey<FormState> _callfk = GlobalKey<FormState>();
 
-  TextEditingController title = TextEditingController();//
+  TextEditingController title = TextEditingController();
   TextEditingController price =TextEditingController();
-  TextEditingController member =TextEditingController();// 제목
+  TextEditingController member =TextEditingController();
   TextEditingController demage = TextEditingController();
-  TextEditingController call = TextEditingController(); //전화번호
+  TextEditingController call = TextEditingController();
 
   FirebaseStorage _firebaseStorage = FirebaseStorage.instance;
 
@@ -70,7 +70,7 @@ class _AddState extends State<Add> {
   final String Image_URL = "image_url";
 
   final String Image_demage= 'demage';
-  final String Image_member = 'member';//전화번호
+  final String Image_member = 'member';
   final String Image_call= 'call';
 
   @override
